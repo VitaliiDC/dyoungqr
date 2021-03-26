@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dyoungqr/static/css/main.6e07f8f3.chunk.css",
+    "main.css": "/dyoungqr/static/css/main.c5affa2d.chunk.css",
     "main.js": "/dyoungqr/static/js/main.5baf342f.chunk.js",
     "main.js.map": "/dyoungqr/static/js/main.5baf342f.chunk.js.map",
     "runtime-main.js": "/dyoungqr/static/js/runtime-main.9d886e25.js",
@@ -10,14 +10,14 @@
     "static/js/3.8d3979f3.chunk.js": "/dyoungqr/static/js/3.8d3979f3.chunk.js",
     "static/js/3.8d3979f3.chunk.js.map": "/dyoungqr/static/js/3.8d3979f3.chunk.js.map",
     "index.html": "/dyoungqr/index.html",
-    "static/css/main.6e07f8f3.chunk.css.map": "/dyoungqr/static/css/main.6e07f8f3.chunk.css.map",
+    "static/css/main.c5affa2d.chunk.css.map": "/dyoungqr/static/css/main.c5affa2d.chunk.css.map",
     "static/js/2.548351e6.chunk.js.LICENSE.txt": "/dyoungqr/static/js/2.548351e6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dyoungqr/static/media/background.a92e9eab.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d886e25.js",
     "static/js/2.548351e6.chunk.js",
-    "static/css/main.6e07f8f3.chunk.css",
+    "static/css/main.c5affa2d.chunk.css",
     "static/js/main.5baf342f.chunk.js"
   ]
 }
