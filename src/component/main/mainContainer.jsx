@@ -11,7 +11,7 @@ const MainContainer = (props) => {
 }
 
 const mapState = (state) => ({
-
+    loading: state.main.loading
 })
 
 const mapDispatch = {sendMailThunk}

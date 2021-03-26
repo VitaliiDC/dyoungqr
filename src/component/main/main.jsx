@@ -9,6 +9,7 @@ const Main = (props) => {
     }
     return (
         <div className="main">
+            {props.loading ? <div className="preloader"><span></span></div> : undefined}
             <div className="container">
                 <div className="main__body">
                     <div className="main__title"><span>DYoung</span> QR</div>
