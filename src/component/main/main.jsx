@@ -15,7 +15,7 @@ const Main = (props) => {
                     <div className="main__subtitle">Пиши свої ідеї та скарги<br />(можна анонімно)</div>
                     <Formik onSubmit={submit} initialValues={{name: '', message: ''}}>
                         {(isSubmitting) => (
-                            <Form className="main__form">
+                            <Form autoComplete="off" className="main__form">
                                 <Field name="name" type="text" placeholder="Ім’я (не обов’язково)" />
                                 <Field as="textarea" name="message" placeholder="Повідомлення" />
                                 <button type="submit" className="main__btn">Відправити</button>
