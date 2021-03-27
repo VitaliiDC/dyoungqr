@@ -1,0 +1,86 @@
+.t{
+    text-align: center;
+    padding-bottom: 22.1%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &__subtitle{
+        margin-bottom: 93px;
+    }
+    &__btn{
+        display: block;
+    }
+    &__done{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto 50px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 5px solid #5BB2C6;
+        animation: circle .5s linear;
+        span{
+            position: absolute;
+            width: 113px;
+            height: 72px;
+            top: 49%;
+            left: 50%;
+            transform: translate(-50%, -40%) scale(0);
+            animation: done .2s .3s linear forwards;
+            &::before, &::after{
+                content: '';
+                position: absolute;
+                background-color: #5BB2C6;
+                height: 5px;
+            }
+            &::before{
+                bottom: 17px;
+                left: 0;
+                width: 53px;
+                transform: rotate(45deg);
+                animation: first 3s linear;
+            }
+            &::after{
+                top: 34px;
+                right: -16px;
+                width: 101px;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+@keyframes circle {
+    0%{
+        width: 180px;
+        height: 180px;
+        background-color: #5BB2C6;
+    }
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: #5BB2C6;
+    }
+    35%{
+        width: 0;
+        height: 0;
+        background-color: none;
+    }
+    100%{
+        width: 180px;
+        height: 180px;
+        border: 5px solid #5BB2C6;
+    }
+}
+
+@keyframes done{
+    0%{
+        transform: translate(-50%, -40%) scale(0);
+    }
+    100%{
+        transform: translate(-50%, -40%) scale(1);
+    }
+}

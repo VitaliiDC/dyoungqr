@@ -1,0 +1,144 @@
+.t {
+  text-align: center;
+  padding-bottom: 22.1%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.t__subtitle {
+  margin-bottom: 93px;
+}
+
+.t__btn {
+  display: block;
+}
+
+.t__done {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0 auto 50px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #5BB2C6;
+  -webkit-animation: circle .5s linear;
+          animation: circle .5s linear;
+}
+
+.t__done span {
+  position: absolute;
+  width: 113px;
+  height: 72px;
+  top: 49%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%) scale(0);
+          transform: translate(-50%, -40%) scale(0);
+  -webkit-animation: done .2s .3s linear forwards;
+          animation: done .2s .3s linear forwards;
+}
+
+.t__done span::before, .t__done span::after {
+  content: '';
+  position: absolute;
+  background-color: #5BB2C6;
+  height: 5px;
+}
+
+.t__done span::before {
+  bottom: 17px;
+  left: 0;
+  width: 53px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation: first 3s linear;
+          animation: first 3s linear;
+}
+
+.t__done span::after {
+  top: 34px;
+  right: -16px;
+  width: 101px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+@-webkit-keyframes circle {
+  0% {
+    width: 180px;
+    height: 180px;
+    background-color: #5BB2C6;
+  }
+  25% {
+    width: 200px;
+    height: 200px;
+    background-color: #5BB2C6;
+  }
+  35% {
+    width: 0;
+    height: 0;
+    background-color: none;
+  }
+  100% {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #5BB2C6;
+  }
+}
+
+@keyframes circle {
+  0% {
+    width: 180px;
+    height: 180px;
+    background-color: #5BB2C6;
+  }
+  25% {
+    width: 200px;
+    height: 200px;
+    background-color: #5BB2C6;
+  }
+  35% {
+    width: 0;
+    height: 0;
+    background-color: none;
+  }
+  100% {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #5BB2C6;
+  }
+}
+
+@-webkit-keyframes done {
+  0% {
+    -webkit-transform: translate(-50%, -40%) scale(0);
+            transform: translate(-50%, -40%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -40%) scale(1);
+            transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+@keyframes done {
+  0% {
+    -webkit-transform: translate(-50%, -40%) scale(0);
+            transform: translate(-50%, -40%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -40%) scale(1);
+            transform: translate(-50%, -40%) scale(1);
+  }
+}
+/*# sourceMappingURL=t.css.map */

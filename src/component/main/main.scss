@@ -35,12 +35,13 @@
         }
     }
     &__btn{
+        text-decoration: none;
         width: 100%;
         color: #fff;
         font-size: 14px;
         background-color: #5BB2C6;
         border-radius: 10px;
-        padding: 6px 92px;
+        padding: 6px 0;
         border: none;
         font-family: 'SegoePrint';
         outline: none;

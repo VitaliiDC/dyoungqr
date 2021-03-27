@@ -6,6 +6,7 @@ const Main = (props) => {
         await props.sendMailThunk(values)
         resetForm({values: ''})
         setSubmitting(false)
+        props.history.push('/t')
     }
     return (
         <div className="main">
