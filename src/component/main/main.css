@@ -1,5 +1,5 @@
 .main {
-  padding-top: 20px;
+  padding: 12.45vh 0;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,6 +11,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main .container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
 }
 
 .main__title {

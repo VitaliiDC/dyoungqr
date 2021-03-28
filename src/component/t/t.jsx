@@ -6,7 +6,7 @@ const T = (props) => {
         <div className="t">
             <div className="container">
                 <div className="t__body">
-                    <div className="t__done"><span></span></div>
+                    <div className="t__done"><div><span></span></div></div>
                     <div className="main__subtitle t__subtitle">Дякуєм за твій відгук!</div>
                     <NavLink to="/" className="main__btn t__btn">Написати ще</NavLink>
                 </div>

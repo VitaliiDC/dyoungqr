@@ -1,9 +1,12 @@
 .main{
-    padding-top: 20px;
+    padding: 12.45vh 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .container{
+        flex: 0 0 100%;
+    }
     &__title{
         font-size: 46px;
         text-align: center;
